@@ -4,7 +4,7 @@ import {DataGridBody} from './DataGridBody.js';
 import {DataGridHeader} from './DataGridHeader.js';
 import {DataGridPager} from './DataGridPager.js';
 
-const MAX_ROWS = 50;
+const MAX_ROWS = 5;
 
 function filterData(data, columns, searchString) {
     return !searchString ?

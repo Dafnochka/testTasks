@@ -104,10 +104,10 @@ class App extends Component {
     render() {
         const userDetails = this.state.activeUser ?
             <UserDetails user={this.state.activeUser}/> :
-            '';
+            'Выберите пользователя';
         return (
             <div className="App">
-                <p>Тестовое задание. Гукетлева Дарья</p>
+                <p>Гукетлева Дарья. Таблица на React</p>
                 <label>
                     Поиск
                     <input type="text" name='Поиск' onInput={e => this._onSearchFieldInput(e)}/>

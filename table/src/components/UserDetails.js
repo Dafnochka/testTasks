@@ -9,7 +9,7 @@ class UserDetails extends Component {
                 <p>Выбран пользователь <b>{user.firstName} {user.lastName} </b></p>
                 <p>Описание:
                     <br/>
-                    <textarea  className="form-control" rows="3">{user.description}</textarea>
+                    <div >{user.description}</div>
                 </p>
                 <p>Адрес проживания: <b>{user.address.streetAddress}</b></p>
                 <p>Город <b>{user.address.city} </b></p>
